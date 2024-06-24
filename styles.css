@@ -1,5 +1,6 @@
 body {
   display: flex;
+  flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
@@ -19,9 +20,16 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
 p {
   margin: 0;
 }
+
+
 
 
 .header {
@@ -44,6 +52,7 @@ p {
 .top-content {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
 
 }
 
@@ -52,10 +61,92 @@ p {
   flex-direction: column;
   width: 300px;
   gap: 10px;
+}
 
-
+button {
+  border: none;
+  color: white;
+  background-color: #3882F6;
+  width: 80px;
+  padding: 10px, 3px;
+  border-radius: 3px;
 }
 
 .top-content-right {
   display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px, 50px;
+}
+
+.content-title {
+  margin: 20px;
+  font-size: 32px;
+  
+}
+
+.images {
+  margin: 20px;
+  padding: 0;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.image {
+  width: 200px;
+}
+
+.filler {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  align-items: center;
+  font-size: 28px;
+  padding: 70px;
+
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.testimonial-sign{
+  align-self: flex-end;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.call {
+  display: flex;
+  gap: 30px;
+  background-color: #3882F6;
+  padding: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 5px;
+  color: white;
+}
+
+.action-text {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.action-button {
+  border-style: solid;
+  border-radius: 5px;
+  width: 100px;
+
 }
